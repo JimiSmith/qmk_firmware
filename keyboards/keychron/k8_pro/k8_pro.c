@@ -311,6 +311,7 @@ bool via_command_kb(uint8_t *data, uint8_t length) {
     return true;
 }
 
+#if !defined(OPENRGB_ENABLE)
 #if !defined(VIA_ENABLE)
 void raw_hid_receive(uint8_t *data, uint8_t length) {
     switch (data[0]) {
@@ -319,4 +320,5 @@ void raw_hid_receive(uint8_t *data, uint8_t length) {
             break;
     }
 }
+#endif
 #endif
