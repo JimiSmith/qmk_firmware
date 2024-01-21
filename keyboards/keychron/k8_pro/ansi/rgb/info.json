@@ -23,13 +23,19 @@
             "rainbow_beacon": true,
             "jellybean_raindrops": true,
             "pixel_rain": true,
+            "pixel_flow": true,
+            "pixel_fractal": true,
             "typing_heatmap": true,
             "digital_rain": true,
             "solid_reactive_simple": true,
             "solid_reactive_multiwide": true,
             "solid_reactive_multinexus": true,
             "splash": true,
-            "solid_splash": true
+            "multisplash": true,
+            "solid_splash": true,
+            "hue_breathing": true,
+            "hue_pendulum": true,
+            "hue_wave": true
         }
     }
 }
